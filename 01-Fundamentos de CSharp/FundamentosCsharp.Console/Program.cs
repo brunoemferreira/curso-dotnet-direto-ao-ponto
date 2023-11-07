@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-
+#region Tipos e Variáveis
+/*
 var nome = Console.ReadLine();
 
 Console.WriteLine(nome);
@@ -19,3 +20,19 @@ const double PI = 3.1416;
 Console.WriteLine($"Double: {valorDouble}, Float: {valorFloat}, Decimal: {valorDecimal}, Inteiro: {valorInteiro}, PI: {PI}");
 Console.WriteLine($"Boolean: {valorBooleano}");
 Console.WriteLine($"Char: {valorChar}, String: {valorString}");
+*/
+#endregion
+
+#region Operadores Aritméticos
+int a = 10;
+int b = 20;
+
+int soma = a + b;
+int subtracao = a - b;
+int multiplicacao = a * b;
+int divisao = b / a;
+int modulo = a % b;
+
+Console.WriteLine($"Soma: {soma}, Subtração: {subtracao}, Multiplicação: {multiplicacao}, Divisão: {divisao}, Módulo: {modulo}");
+
+#endregion
