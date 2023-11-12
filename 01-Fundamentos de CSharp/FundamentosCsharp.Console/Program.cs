@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+// Console.WriteLine("Hello, World!");
 
 #region Tipos e Variáveis
 /*
@@ -24,7 +24,7 @@ Console.WriteLine($"Char: {valorChar}, String: {valorString}");
 #endregion
 
 #region Operadores Aritméticos
-int a = 10;
+/*int a = 10;
 int b = 20;
 
 int soma = a + b;
@@ -34,5 +34,46 @@ int divisao = b / a;
 int modulo = a % b;
 
 Console.WriteLine($"Soma: {soma}, Subtração: {subtracao}, Multiplicação: {multiplicacao}, Divisão: {divisao}, Módulo: {modulo}");
+*/
+#endregion 
+
+#region Operadores Lógicos
+/*bool x = true;
+bool y = false;
+
+var and =  x && y; // AND
+var or = x || y;   // OR
+var notX = !x;     // NOT
+var notY = !y;     // NOT
+
+Console.WriteLine("x = true, y = false");
+Console.WriteLine($"AND: {and}, OR: {or}, NOT X:{notX}, NOT Y: {notY}");
+*/
+#endregion 
+
+#region Operadores de Comparação
+
+/*var p = 5;
+var q = 10;
+
+bool maior = p > q;
+bool maiorOuIgual = p >= q;
+bool menor = p < q;
+bool menorOuIgual = p <= q;
+bool igual = p == q;
+bool diferente = p != q;
+
+Console.WriteLine($"P = {p}, Q = {q}");
+Console.WriteLine($"Maior: {maior}, Maior ou Igual:{maiorOuIgual}");
+Console.WriteLine($"Menor: {menor}, Menor ou Igual:{menorOuIgual}");
+Console.WriteLine($"Igual: {igual}, Diferente:{diferente}");
+*/
+#endregion 
+
+#region Operadores de Igualdade e Atribuição
+using System.ComponentModel;
+
+int k = 5;
+k = 10;
 
 #endregion
