@@ -71,7 +71,7 @@ Console.WriteLine($"Igual: {igual}, Diferente:{diferente}");
 #endregion 
 
 #region Operadores de Igualdade e Atribuição
-using System.ComponentModel;
+/*using System.ComponentModel;
 
 int k = 5;
 k = 10;
@@ -86,6 +86,32 @@ k /= 4; // k = k / 4 = 24 / 4 = 6
 Console.WriteLine(k);
 k %= 5; // k = k % 5 = 6 % 5 = 1
 Console.WriteLine(k);
+*/
+
+#endregion
+
+#region Estruturas de Condição If- Else
+/* var nota = 35;
+
+if (nota >= 70)
+{
+    Console.WriteLine("Aprovado");
+}
+else if (nota >= 30)
+{
+    Console.WriteLine("Em recuperação");
+}
+else
+{
+    Console.WriteLine("Reprovado");
+}
+*/
+
+#endregion
+
+#region Estruturas de Condição Switch - Case
+var opcao = 2;
+
 
 
 #endregion
