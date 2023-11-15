@@ -76,4 +76,16 @@ using System.ComponentModel;
 int k = 5;
 k = 10;
 
+k += 5; // k = k + 5 = 10 + 5 = 15
+Console.WriteLine(k);
+k -= 3; // k = k - 3 = 15 - 3 = 12
+Console.WriteLine(k);
+k *= 2; // k = k * 2 = 12 * 2 = 24
+Console.WriteLine(k);
+k /= 4; // k = k / 4 = 24 / 4 = 6
+Console.WriteLine(k);
+k %= 5; // k = k % 5 = 6 % 5 = 1
+Console.WriteLine(k);
+
+
 #endregion
